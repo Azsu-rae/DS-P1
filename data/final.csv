@@ -1,0 +1,13 @@
+,Month,Product A,Product B,Product C,Product D,Total Sales,Average Sales,Month over Month Growth,Quarter,Min Sales Product,Max Sales Product
+0,JAN,61,65,33,27,186,46.5,100.00%,Q1,Product D,Product B
+1,FEB,81,70,46,42,239,59.75,28.49%,Q1,Product D,Product A
+2,MAR,74,50,58,18,200,50.0,-16.32%,Q1,Product D,Product A
+3,APR,82,80,20,48,230,57.5,15.00%,Q2,Product C,Product A
+4,MAY,60,36,56,29,181,45.25,-21.30%,Q2,Product D,Product A
+5,JUN,67,58,54,25,204,51.0,12.71%,Q2,Product D,Product A
+6,JUL,92,43,42,42,219,54.75,7.35%,Q3,Product C,Product A
+7,AUG,73,50,43,45,211,52.75,-3.65%,Q3,Product C,Product A
+8,SEP,85,55,50,49,239,59.75,13.27%,Q3,Product D,Product A
+9,OCT,50,30,58,40,178,44.5,-25.52%,Q4,Product B,Product C
+10,NOV,56,45,33,49,183,45.75,2.81%,Q4,Product C,Product A
+11,DEC,83,78,52,19,232,58.0,26.78%,Q4,Product D,Product A

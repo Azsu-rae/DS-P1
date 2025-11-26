@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import random
-
 print("\n1. DATA GENERATION    -------------------------------------------------------------")
 
 def generate_random_sales(mn, mx, size):
@@ -150,27 +149,3 @@ print(f"\nBest produt in annual sales: {max_yearly_sales_product}")
 # we'll reuse the groupby we made for Q3
 print(f"\nTotal Sales per Quarter:\n\n{total_sales_per_quarter}")
 print(f"\nBest quarter in total sales: {total_sales_per_quarter.idxmax()}")
-
-print("\n5. VISUALIZATIONS -------------------------------------------------------------")
-
-# Line chart for each product across months
-df.plot(x="Month", y=["Product A", "Product B", "Product C", "Product D"], kind="line")
-plt.show()
-
-# bar chart for total sales accross months with an annotation in the best selling month
-df.plot(x="Month", y="Total Sales", kind="bar")
-plt.annotate("Peak", xy=(max_total_sales_index, max_total_sales_row['Total Sales']))
-plt.show()
-
-import seaborn as sns
-
-sns.heatmap(df[['Product A', 'Product B', 'Product C', 'Product D']])
-plt.show()
-
-sns.boxplot(data=df[['Product A', 'Product B', 'Product C', 'Product D']])
-plt.show()
-
-print("\nConclusion Questions: -------------------------------------------------------------")
-
-print("\n1. The Product with the most contribution is obviously 'A' because of the range we used to generate it's data ([50, 100]). All the other products's lower & upper bounds are smaller")
-print(f"\n2. The best quarter is {total_sales_per_quarter.idxmax()}. For no particular or rather arbitrary reason. the sales are uniformely distributed throughout the year.")
